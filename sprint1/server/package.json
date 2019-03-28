@@ -1,0 +1,29 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.25.0",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-form-data": "^2.0.8",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^2.1.1",
+    "image-data-uri": "^2.0.0",
+    "jwks-rsa": "^1.4.0",
+    "time-stamp": "^2.2.0",
+    "uuid": "^3.3.2"
+  }
+}

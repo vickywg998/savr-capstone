@@ -1,0 +1,148 @@
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfaf6+9,d4cebf+74,d4cebf+74,d4cebf+100 */
+	background: rgb(251,250,246); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(251,250,246,1) 9%, rgba(212,206,191,1) 74%, rgba(212,206,191,1) 74%, rgba(212,206,191,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(251,250,246,1) 9%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(251,250,246,1) 9%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.container1 {
+	position: relative;
+	width: 700px;
+	height: 600px;
+
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.central {  
+	top: 10%;
+	// margin-left: auto;
+	// margin-right: auto;
+}
+
+.recipe_photo {
+	position: relative;
+	width: 300px;
+	height: 580px;
+	overflow: hidden;
+	background-color: #eee;
+	border-radius:5px;
+	top: -20px;
+	float: left;
+	z-index: 2;
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);  
+
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	transition: all 0.5s; 
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5); 
+}
+
+.img_back {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+}
+img.indImg__size {
+height: 380px;
+
+}
+.minute_icon {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.sub_minute_icon {
+	position: relative;
+	float: left;
+	width: 60px;
+	height: 60px;
+	background-color: rgba(255,253,112,0.8);
+	border-radius: 50%;
+	margin: 16px;
+	margin-bottom: 0px;
+	opacity: 1;
+}
+
+.sub_minute_icon > h3 {
+	font-size: 20px;
+	margin-top: 12px;
+	margin-bottom: -10px;
+}
+
+.sub_minute_icon > span {
+	font-size: 9px; 
+	font-weight: 700;
+}
+
+.recipe_details {
+	position: absolute;
+	bottom: 0px;
+	height: 180px;
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+100,000000+101&0+0,0.65+68 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 68%, rgba(0,0,0,0.65) 100%, rgba(0,0,0,0.65) 101%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	width: 100%;
+}
+
+
+.recipe_details > h3 {
+	margin-top: 50px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.recipe_details > p {
+	color: #fff;
+	width: 80%;
+	text-align: left;
+	font-size: 14px;
+	margin: auto;
+}
+
+.ingredients {
+	position: absolute;
+	width: auto;
+	top: -20px;
+	left: 300px;
+	margin-left: 10px;
+	height: 580px;
+	float: left; 
+	border-radius: 5px;
+	z-index: 1;
+	box-shadow: 15px 20px  70px  -5px  rgba(0,0,0,0.2);
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbf9f9+28,e8eaed+100 */
+	background: rgb(251,249,249); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(251,249,249,1) 28%, rgba(232,234,237,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.ingredient_body {
+  position: relative;
+  width: 410px;
+  padding-top: 60px;
+  margin: 14px;
+  text-align: left;
+}
+
+.ingredient_header {
+	position: relative;
+	float: left;
+	width: 450px;
+	padding: 5px;
+	border-bottom: 3px solid #EDEDEC;
+}

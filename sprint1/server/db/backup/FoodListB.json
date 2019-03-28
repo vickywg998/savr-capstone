@@ -1,0 +1,27 @@
+[
+  {
+    "foodItem": "apple",
+    "category": "produce",
+    "expiryDate": "Expiring in 1 day"
+  },
+  {
+    "foodItem": "orange",
+    "category": "produce",
+    "expiryDate": "Expiring in 3 day"
+  },
+  {
+    "foodItem": "pear",
+    "category": "produce",
+    "expiryDate": "Expiring in 2 day"
+  },
+  {
+    "foodItem": "broccoli",
+    "category": "produce",
+    "expiryDate": "Expiring in 5 day"
+  },
+  {
+    "foodItem": "mushroom",
+    "category": "produce",
+    "expiryDate": "Expiring in 7 day"
+  }
+]

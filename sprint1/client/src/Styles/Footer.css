@@ -1,0 +1,58 @@
+.footer__container--big {
+  background-color: #6EB6BE;
+  width: 100%;
+}
+
+.footer__container--small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 50px 100px 30px 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__container--small2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0px 100px 30px 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 30%;
+}
+
+.download__button--footer {
+  width: 30%;
+  height: 80px;
+}
+
+.footer__font {
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 15px;
+}
+
+p {
+  padding-bottom: 6px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,95 @@
+@mixin h1-herofont {
+  font-size: 60px;
+  line-height: 80px;
+}
+
+@mixin h1-font {
+  font-size: 36px;
+  line-height: 44px;
+}
+@mixin h2-font {
+  font-size: 24px;
+  line-height: 40px;
+}
+@mixin h3-font {
+  font-size: 16px;
+  line-height: 24px;
+}
+@mixin h4-font {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@mixin h5-font {
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.footer__container--big {
+  background-color: #6EB6BE;
+  width: 100%;
+
+
+}
+.footer__container--small {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px 100px 30px 100px;
+  justify-content: space-around;
+  @media (max-width: 650px) {
+    flex-flow: column wrap;
+    padding: 50px 16px 0px 16px;
+    
+  }
+}
+
+.footer__container--small2{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 16px 30px 16px;
+  justify-content: space-between;
+  @media (max-width: 650px) {
+    width: 100%;
+    align-items:center;
+    padding-bottom: 10px;
+   }
+
+}
+
+.footer__wrapper {
+display: flex; 
+flex-flow: column wrap;
+width: 30%;
+@media (max-width: 650px) {
+ width: 100%;
+ align-items:center;
+}
+
+}
+
+.download__button--footer {
+  width: 30%; 
+  height: 80px;
+  @media (max-width: 650px) {
+   margin-left: 100px;
+   height:100px;
+
+   }
+}
+
+
+
+.footer__font {
+@include h2-font();
+padding-bottom: 15px;
+@media (max-width: 650px) {
+ padding-bottom: 0px;
+ }
+}
+
+
+p {
+  padding-bottom: 6px;
+}
+
