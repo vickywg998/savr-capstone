@@ -41,7 +41,7 @@ const AddListItem = props => {
                       }}
                     >
                       <Button variant="outline-secondary">
-                        <img id="scan__icon" />
+                        <img id="scan__icon" alt=""/>
                       </Button>
                     </Link>
                   </InputGroup.Append>

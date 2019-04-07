@@ -23,7 +23,7 @@ const Footer =() => {
             </div>
             <div className="footer__wrapper">
             <h3 className="footer__font">Get the App</h3>
-            <p><img src={Download} className="download__button--footer"></img></p>
+            <p><img src={Download} className="download__button--footer" alt=""></img></p>
             </div>
             
             </div>

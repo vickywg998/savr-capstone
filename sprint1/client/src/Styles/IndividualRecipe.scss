@@ -121,23 +121,33 @@ span.min {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-	padding: 5% 8% 2% 8%;
+	padding: 5% 5% 2% 8%;
 
 }
 .recipeLabel__position {
-	padding-top: 4%;
+  padding-top: 4%;
+  @media only screen and (min-width: 200px) and (max-width: 450px) {
+    padding-left: 5%;
+    
+    }
 }
 .ingredient__header {
   border-bottom: 5px solid rgb(234, 234, 207);
   width: 100%;
   padding: 2%;
   text-align: center;
+
 }
 
 .ingredientList__position {
 	padding: 5% 10%;
 	@media only screen and (min-width: 200px) and (max-width: 450px) {
    padding: 5%;
-   
+   width:100%;
+  
   }
+}
+
+p#recipeURL__padding {
+  word-wrap: break-word;
 }

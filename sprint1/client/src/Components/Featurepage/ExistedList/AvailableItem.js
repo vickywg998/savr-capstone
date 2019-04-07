@@ -35,9 +35,5 @@ const AvailableItem = props => {
   );
 };
 
-// AvailableItem.propTypes = {
-//   label: PropTypes.string.isRequired,
-//   handleCheckboxChange: PropTypes.func.isRequired,
-// };
 
 export default AvailableItem;

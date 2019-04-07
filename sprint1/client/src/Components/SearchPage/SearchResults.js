@@ -18,7 +18,7 @@ const SearchResults = props => {
                     }
                   }}
                 >
-                  <img src={item.recipe.image} className="recipe__img--size" />
+                  <img src={item.recipe.image} className="recipe__img--size" alt=""/>
                   <h3>{item.recipe.label}</h3>
                   {item.recipe.totalTime > 0 ? (
                     <p className="time__spacing">

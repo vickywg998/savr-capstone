@@ -47,10 +47,10 @@ const IndividualRecipe = props => {
                 return <li>{ingredient.text}</li>;
               })}
             </ul>
-            <p>
+            <span>
               <b>More Info on : </b>
-              <span>{url}</span>
-            </p>
+              <p id="recipeURL__padding">{url}</p>
+            </span>
           </div>
         </div>
       </div>

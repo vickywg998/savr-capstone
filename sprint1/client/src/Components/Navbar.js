@@ -4,8 +4,7 @@ import "../Styles/global.scss";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavLink from "react-bootstrap/NavLink";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+
 
 class Navbarr extends Component {
   render() {
