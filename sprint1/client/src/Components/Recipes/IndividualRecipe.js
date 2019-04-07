@@ -1,5 +1,5 @@
 import React from "react";
-import '../../Styles/IndividualRecipe.scss'
+import "../../Styles/IndividualRecipe.scss";
 
 const IndividualRecipe = props => {
   const {
@@ -13,47 +13,43 @@ const IndividualRecipe = props => {
   } = props.item.recipe;
 
   return (
-    <div className="background">
-      <div className="central container1">
-        <div className="recipe_photo">
-          <div className="img_back">
-            <img src={image} alt="" className="indImg__size"/>
+    <div className="individualRecipe__bg">
+      <div className="recipe__container--big">
+        <div className="recipe__wrapper recipe__wrapper--left">
+          <div className="recipe__img--wrapper">
+            <img src={image} alt="" className="indImg__size" />
           </div>
-          { totalTime > 0 ? 
-            (
-              <div className="minute_icon">
-            <div className="sub_minute_icon">
-            <h3>{totalTime}</h3>
-            <span>MINS</span>
+
+          <div className="recipeLabel__container">
+            <div className="recipeLabel__wrapper">
+              {totalTime > 0 ? (
+                <span className="minute_icon">
+                  <span className="sub_minute_icon">
+                    <h3>{totalTime}</h3>
+                    <span className="min">MINS</span>
+                  </span>
+                </span>
+              ) : null}
+              <h3 className="recipeLabel__position">{label}</h3>
+            </div>
+            <div className="recipeLabel__wrapper">
+              {dietLabels.length > 0 ? <p>{dietLabels}</p> : null}
+              <p>{healthLabels.join(" , ")}</p>
+            </div>
           </div>
         </div>
-            ) : null
-            }
+        <div className="recipe__wrapper recipe__wrapper--right">
+          <h4 className="ingredient__header">Ingredients</h4>
 
-          <div className="recipe_details">
-            <h3>{label}</h3>
-            {dietLabels.length > 0 ? (
-              <p>{dietLabels}</p>
-            ) : null}
-            <p>
-            {healthLabels.join(' ')}
-            </p>
-          </div>
-        </div>
-
-        <div className="ingredients">
-          <div className="ingredient_header">
-            <h4>Ingredients</h4>
-          </div>
-          <div className="ingredient_body">
+          <div className="ingredientList__position">
             <ul>
-            {ingredients.map((ingredient, i) => {
-              return <li>{ingredient.text}</li>;
-            })}
+              {ingredients.map((ingredient, i) => {
+                return <li>{ingredient.text}</li>;
+              })}
             </ul>
             <p>
               <b>More Info on : </b>
-              {url}
+              <span>{url}</span>
             </p>
           </div>
         </div>
@@ -63,4 +59,3 @@ const IndividualRecipe = props => {
 };
 
 export default IndividualRecipe;
-

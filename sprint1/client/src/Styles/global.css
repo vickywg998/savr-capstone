@@ -169,6 +169,13 @@ html {
   }
 }
 
+@media only screen and (max-width: 650px) {
+  .homepage__herofont {
+    padding: 60px 16px 50px 16px;
+    font-size: 40px;
+  }
+}
+
 .homepage__herofont--small {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,6 +325,12 @@ img.benefitimg {
   }
 }
 
+@media only screen and (max-width: 650px) {
+  .benefit__paragraph {
+    padding: 30px 20px 0px 20px;
+  }
+}
+
 .prototype__container--big {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,6 +392,13 @@ img.prototype__icon {
   line-height: 42px;
 }
 
+@media only screen and (max-width: 768px) {
+  .prototype__paragraph {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 img.prototypeimg {
   padding: 120px 0px 50px 50px;
   width: 100%;
@@ -393,12 +413,33 @@ img.prototypeimg {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  img.prototypeimg {
+    padding: 40px 0px 50px 20px;
+    width: 90%;
+    height: 1000px;
+    margin: 0;
+  }
+}
+
 .carousel-caption h1 {
   font-size: 5rem;
 }
 
+@media (max-width: 650px) {
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+}
+
 .carousel-caption h3 {
   font-size: 50px;
+}
+
+@media (max-width: 650px) {
+  .carousel-caption h3 {
+    font-size: 10px;
+  }
 }
 
 .carousel-caption h1,
@@ -430,11 +471,18 @@ img.prototypeimg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 420px;
   height: 380px;
   padding: 30px 10px;
   margin-bottom: 50px;
   border-radius: 10%;
+}
+
+@media (max-width: 650px) {
+  .recipe__img--size {
+    width: 300px;
+    padding-bottom: 5px;
+  }
 }
 
 .card {
@@ -454,6 +502,18 @@ img.prototypeimg {
   background-color: rgba(255, 255, 255, 0.35);
 }
 
+@media (max-width: 650px) {
+  .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 90%;
+  }
+}
+
 .recipe__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,6 +527,17 @@ img.prototypeimg {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 300px;
+}
+
+@media (max-width: 650px) {
+  .recipe__container {
+    padding-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    width: 100%;
+  }
 }
 
 .recipe__background {
@@ -526,8 +597,20 @@ button {
           box-shadow: 0 10px 40px #c3d2cb, 0 0 0 20px #ffffffeb;
 }
 
+@media (max-width: 650px) {
+  #cover {
+    padding: 5px;
+  }
+}
+
 form.searchBar__form {
   height: 96px;
+}
+
+@media (max-width: 650px) {
+  form.searchBar__form {
+    height: 88px;
+  }
 }
 
 input[type="text"].searchBar__input {
@@ -536,6 +619,12 @@ input[type="text"].searchBar__input {
   font-size: 60px;
   line-height: 1;
   padding-left: 10px;
+}
+
+@media (max-width: 650px) {
+  input[type="text"].searchBar__input {
+    height: 80px;
+  }
 }
 
 input[type="text"]::-webkit-input-placeholder.searchBar__input {
@@ -565,6 +654,7 @@ input[type="text"]::placeholder.searchBar__input {
   width: 84px;
   height: 96px;
   cursor: pointer;
+  border: none;
 }
 
 #s-cover:hover #s-circle {
@@ -573,35 +663,7 @@ input[type="text"]::placeholder.searchBar__input {
   height: 15px;
   border-width: 0;
   background-color: #fff;
-  border-radius: 20px;
-}
-
-#s-cover:hover span {
-  top: 50%;
-  left: 56px;
-  width: 25px;
-  margin-top: -9px;
-  -webkit-transform: rotateZ(0);
-          transform: rotateZ(0);
-}
-
-#s-cover:hover button span:before {
-  bottom: 11px;
-  -webkit-transform: rotateZ(52deg);
-          transform: rotateZ(52deg);
-}
-
-#s-cover:hover button span:after {
-  bottom: -11px;
-  -webkit-transform: rotateZ(-52deg);
-          transform: rotateZ(-52deg);
-}
-
-#s-cover:hover button span:before,
-#s-cover:hover button span:after {
-  right: -6px;
-  width: 40px;
-  background-color: #fff;
+  border-radius: 10px;
 }
 
 .searchBar__container {
@@ -629,6 +691,13 @@ input[type="text"]::placeholder.searchBar__input {
   color: rgba(255, 255, 255, 0.907);
 }
 
+@media (max-width: 650px) {
+  .searchBar__font {
+    padding-top: 60px;
+    font-size: 30px;
+  }
+}
+
 body.additem__bg {
   background-position: center center;
   background-repeat: no-repeat;
@@ -636,6 +705,12 @@ body.additem__bg {
   background-image: url("../Assets/Images/unfocusedfood.jpeg");
   width: 100%;
   min-height: 1200px;
+}
+
+@media (max-width: 650px) {
+  body.additem__bg {
+    min-height: 700px;
+  }
 }
 
 .addItem__form--container {
@@ -712,6 +787,16 @@ canvas.canvas__size--snapshot {
   margin-top: 20px;
 }
 
+@media (max-width: 650px) {
+  canvas.canvas__size--snapshot {
+    width: 270px;
+    height: 200px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 85px;
+  }
+}
+
 video.canvas__size--video {
   width: 500px;
   height: 400px;
@@ -719,6 +804,15 @@ video.canvas__size--video {
   display: -ms-flexbox;
   display: flex;
   margin-left: 80px;
+}
+
+@media (max-width: 650px) {
+  video.canvas__size--video {
+    width: 300px;
+    height: 200px;
+    margin-left: 0;
+    margin-right: 100px;
+  }
 }
 
 canvas.canvas__size--predictions {
@@ -777,6 +871,12 @@ img.capture__button {
   width: 100%;
 }
 
+@media (max-width: 650px) {
+  .webcam__container {
+    min-height: 800px;
+  }
+}
+
 .imgrec__selectList {
   border: 1px solid #387277;
   width: 15%;
@@ -784,6 +884,15 @@ img.capture__button {
   background-color: white;
   border-radius: 10px;
   padding-left: 5px;
+}
+
+@media (max-width: 650px) {
+  .imgrec__selectList {
+    width: 50%;
+    padding-left: 0;
+    margin-top: 30px;
+    margin-right: 60px;
+  }
 }
 
 li {
@@ -871,10 +980,20 @@ a:hover {
   padding-right: 20px;
 }
 
+.text-muted {
+  font-size: 20px;
+}
+
 img#scan__icon {
   background-image: url("../Assets/Icons/scan.svg");
   height: 40px;
   width: 40px;
+}
+
+@media (max-width: 650px) {
+  .listCancel__button {
+    margin-left: 20px;
+  }
 }
 
 .individualRecipe__padding {
@@ -937,6 +1056,7 @@ img#scan__icon {
 
 .time__spacing {
   margin: 0;
+  font-size: 20px;
 }
 
 .addIngredient__button {
